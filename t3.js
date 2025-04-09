@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 
 const invoiceCalculation = async () => {
   try {
-    const data = await fs.readFile('./invoice.json', 'utf-8');
+    const data = await fs.readFile('./invoices.json', 'utf-8');
     const invoices = JSON.parse(data);
 
     const validInvoices = invoices.filter(
@@ -48,3 +48,4 @@ const invoiceCalculation = async () => {
 };
 
 invoiceCalculation();
+
