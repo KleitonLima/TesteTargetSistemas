@@ -1,0 +1,15 @@
+{
+  "name": "testes-tecnicos",
+  "version": "1.0.0",
+  "description": "Sequência de testes técnicos para Terget Sistemas",
+  "main": "Teste01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kleiton Lima",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "type": "module"
+}
